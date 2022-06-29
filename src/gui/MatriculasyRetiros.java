@@ -108,7 +108,7 @@ public class MatriculasyRetiros extends JDialog implements ActionListener {
 		switch (indice) {
 			case 0:
 				if (am.buscar(codigo) != null) {
-					mensaje("Busqueda Realizado con exito");
+					mensaje("Busqueda Realizado con exito :)");
 					imprimir("Matricula Encontrada... ");
 					imprimir("Codigo de matricula: " + am.buscar(codigo).getNum_matricula());
 					int alumno = am.buscar(codigo).getCod_alumno();
@@ -132,7 +132,7 @@ public class MatriculasyRetiros extends JDialog implements ActionListener {
 			case 1:
 				if (ar.buscar(codigo) != null) {
 					mensaje("Busqueda Realizado con exito");
-					imprimir("Retiro Encontrado... ");
+					imprimir("Retiro Encontrado... :)");
 					imprimir("Codigo de Retiro: " + ar.buscar(codigo).getNumRetiro());
 					int matricula = ar.buscar(codigo).getNumMatricula();
 					imprimir("Codigo de Matricula: " + matricula);
