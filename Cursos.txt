@@ -1,0 +1,2 @@
+1001;Desarrollo;2;2;2
+1002;Matematica;3;2;1
