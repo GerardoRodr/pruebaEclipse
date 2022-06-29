@@ -116,7 +116,7 @@ public class MatriculasyRetiros extends JDialog implements ActionListener {
 					imprimir("Fecha de la  Matricula: " + am.buscar(codigo).getFecha());
 					imprimir("Hora de la Matricula: " + am.buscar(codigo).getHora());
 					
-					imprimir("Datos Del Alumno Matriculado: ... ");
+					imprimir("Datos Del Alumno Matriculado: ... :)");
 					imprimir("Nombre del Alumno: " + al.buscar(alumno).getNombres());
 					imprimir("Apellido del Alumno: " + al.buscar(alumno).getApellidos());
 					imprimir("Dni del Alumno: " + al.buscar(alumno).getDni());
